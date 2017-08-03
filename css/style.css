@@ -4,13 +4,13 @@
 
 body {
  overflow: hidden;
- font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+ font-family: 'Quicksand', sans-serif;
  font-weight: 100;
  color: rgba(255, 255, 255, 1);
  margin: 0;
  margin-top: 2vw;
  padding: 0;
- background: #C1E1DC;
+ background: white;
  -webkit-touch-callout: none;
  -webkit-user-select: none;
  -khtml-user-select: none;
@@ -32,7 +32,7 @@ body {
 .header {
   height: 50px;
   width: 420px;
-  background:#53ac9c;
+  background:black;
   text-align: center;
   position:relative;
   z-index: 100;
@@ -108,7 +108,7 @@ body {
 }
 
 .week {
- background: gray;
+ background: black;
 }
 
 .day {
@@ -121,12 +121,12 @@ body {
   background: #C1E1DC;
   position: relative;
   z-index: 100;
-  color: #ffffcc;
+  color: black;
   font-weight: bold;
 }
 
 .day.other {
- color: #e6e6e6;
+ color: white;
 
 }
 
@@ -180,7 +180,7 @@ body {
   position: relative;
   width: 420px;
   height: 75px;
-  background: #ffd699;
+  background: black;
   margin-top: 5px;
   border-radius: 4px;
 
